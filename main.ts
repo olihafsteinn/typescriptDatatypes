@@ -29,7 +29,7 @@ console.log(list.length)   // Logs the number of items in the array
 
 // Object
 const people = {
-    firstName: "Halldór",
+    firstName: "Halldór",       // Object properties
     lastName: "Halldórsson",
     age: 30
 };
@@ -37,7 +37,7 @@ const people = {
 delete people.age;  // Removes the age object, i get an error but for some reason it still works
 
 console.log(people)                // Outputs the first and last name into the console
-console.log(people["lastName"])    // Outputs the last name into the console
+console.log(people["lastName"])    // Output a specific property
 
 // Math method
 console.log(num1 + Math.PI)        // Returns 13.141......
@@ -59,46 +59,3 @@ if (itemCount > 0 && itemCount <= 5) {          // If you have 1-5 items, 5% dis
 }
 
 console.log(`You got ${discount}% discount. `)  // Outputs "You got 10% discount"
-
-
-// console.log("Hello world");
-// const myDiv = document.querySelector("div");
-// const myButton = document.querySelector("button");
-// if(myDiv !== null){
-//     myDiv.innerHTML = "Hello world"
-// }
-
-// //Datatypes 
-// const text:string = "Hello ";
-// const number:number = 123;
-// const bool:boolean = true;
-
-// const greeting:string = text + "world" + number;
-
-// const arithmetic:number = number - 2;
-
-// // if(myButton !== null && myDiv !== null){
-// //     myButton.addEventListener('click', () => {
-// //         myDiv.innerHTML = arithmetic.toString();
-// //     });
-// // }
-
-// //Array/list datatype
-// const manyText:string[] = ["Hello", "World", "Foo", "Bar"];
-// console.log(manyText);
-
-// console.log(arithmetic);
-
-// type productType = {title:string, pictureURL:string, price:number}
-
-// const product : productType = {
-//     title: "My Title",
-//     pictureURL: 'https://picsum.photos/200/300',
-//     price: 123
-// }
-
-// if(myButton !== null && myDiv !== null){
-//     myButton.addEventListener('click', () => {
-//         myDiv.innerHTML = `<img src="${product.pictureURL}" />`;
-//     });
-// }
